@@ -4,7 +4,7 @@ var bodyParser = require("body-parser");
 require("dotenv").config();
 var cors = require("cors");
 
-const URL = "mongodb://localhost/ecu";
+
 
 const userRouter = require("./routes/userRoutes");
 const deviceRouter = require("./routes/deviceRoutes");
